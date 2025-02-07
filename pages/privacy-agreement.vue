@@ -1,0 +1,60 @@
+<template>
+  <client-only>
+    <div class="container">
+      <div v-html="content" class="main"></div>
+      <foot></foot>
+    </div>
+  </client-only>
+</template>
+
+<script>
+  import foot from "~/components/Footer.vue";
+import axios from "axios";
+export default {
+  components: {
+    foot
+  },
+  data() {
+    return {
+      content: ""
+    };
+  },
+  async mounted() {
+    // document.getElementById("newBridge") ? document.getElementById("newBridge").remove() : "";
+    let res = await axios.get(
+      "https://ho.haioucx.com/haiou/api/help-information/queryHelpInformationById?id=39"
+    );
+    this.content = res.data.data.content;
+  },
+  head() {
+    return {
+      title:
+        "安昇租车_7-54座大巴配驾租车_旅游包车_大巴租赁_商务车出租_一站式包车平台",
+      meta: [
+        {
+          name: "keywords",
+          content:
+            "安昇租车,旅游包车,大巴租赁,大巴包车,大巴出租,商务车租赁,商务车出租,包车平台"
+        },
+        {
+          name: "description",
+          content:
+            "安昇租车专注于团体社交出行服务，通过互联网+大巴车租赁模式，为广大用户提供旅游包车、市内包车、企业用车、婚礼包车、商务接待、会展会务等便捷的订车服务。安昇租车，让集体出行更美好，服务热线025-51197773。"
+        }
+      ]
+    };
+  }
+};
+</script>
+
+<style scoped>
+.container {
+  margin-top: 128px;
+}
+
+.main {
+  width: 68%;
+  margin: 0 auto;
+  margin-top: 148px;
+}
+</style>

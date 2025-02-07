@@ -1,0 +1,231 @@
+.m30 {
+  margin: 30px;
+}
+.p30 {
+  padding: 30px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb18 {
+  margin-bottom: 18px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+.mb40 {
+  margin-bottom: 40px !important;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt35 {
+  margin-top: 35px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+
+.mr18 {
+  margin-right: 18px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.ml35 {
+  margin-left: 35px;
+}
+.ml40 {
+  margin-left: 40px;
+}
+.ml80 {
+  margin-left: 80px;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.font-12 {
+  font-size: 12px;
+  line-height: 12px;
+}
+.font-14 {
+  font-size: 14px;
+  line-height: 14px;
+}
+.font-16 {
+  font-size: 16px;
+  line-height: 16px;
+}
+.font-18 {
+  font-size: 18px;
+  line-height: 18px;
+}
+.font-20 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.haiocx-flex {
+  display: flex;
+}
+
+.top_right {
+  float: right;
+  line-height: 32px;
+}
+.top_right li {
+  float: left;
+  /* color: white; */
+  height: 32px;
+  position: relative;
+  font-size: 12px;
+  cursor: pointer;
+}
+.top_right li.has_line::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  background: #d0cfce;
+  vertical-align: middle;
+}
+.top_right .layui-icon {
+  font-size: 14px;
+}
+.top_right li > img {
+  margin-top: 4px;
+}
+.top_right li div {
+  /* opacity: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  z-index: 10000;
+  width: 200px;
+  background-color: #fff;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.4s linear; */
+}
+.top_right .hover_txt:hover .hover_item {
+  opacity: 1;
+  height: 236px;
+}
+.top_right li div img {
+  width: 100%;
+  display: block;
+}
+.top_right li div img.user {
+  width: 90%;
+  margin: 16px auto 10px;
+}
+.top_right li div span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* .top_right li.hover_txt:hover a{
+	color:#FFDA44;
+}
+.top_right li a.hover_txt:hover{
+	color:#FFDA44;
+} */
+.top_right li a {
+  padding: 0 12px;
+  /* color: #D0CFCE; */
+  font-size: 12px;
+  line-height: 32px;
+  display: inline-block;
+  height: 32px;
+  position: relative;
+}
+.top_right li a img {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.top_right li a .layui-badge {
+  padding: 0;
+  border-radius: 100%;
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  line-height: 14px;
+  top: 5px;
+  right: 8px;
+  text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+    text-decoration: none!important;
+    outline: none!important;
+    color: #000!important
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 3px;
+}
