@@ -12,7 +12,7 @@
             <a slot="reference">微信公众号</a>
           </el-popover>
         </li>
-        <li>服务热线：13951636244</li>
+        <li>服务热线：18651833658</li>
       </ul>
     </div>
     <!-- 导航条 -->
@@ -67,7 +67,7 @@ export default {
           path: "/brand-advantage"
         },
         {
-          name: "关于安昇",
+          name: "关于我们",
           path: "/aboutus"
         }
       ],
@@ -170,7 +170,7 @@ export default {
 }
 
 img.nav_logo_black {
-    width: 250px;
+    width: 160px;
 }
 
 .nav_route ul {

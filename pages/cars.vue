@@ -4,7 +4,7 @@
       <div class="car-container">
         <el-breadcrumb class="mb30" separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }"
-            >安昇租车首页</el-breadcrumb-item
+            >奥鼎机械首页</el-breadcrumb-item
           >
           <el-breadcrumb-item>优选车型</el-breadcrumb-item>
         </el-breadcrumb>
@@ -98,7 +98,7 @@ export default {
   },
   head() {
     return {
-      title: "优选车型_大巴包车_考斯拉租赁_客车租赁_商务车租赁—安昇租车",
+      title: "优选车型_大巴包车_考斯拉租赁_客车租赁_商务车租赁—奥鼎机械",
       meta: [
         {
           name: "keywords",
@@ -107,7 +107,7 @@ export default {
         {
           name: "description",
           content:
-            "安昇租车为广大用户提供7-54座多种车型选择服务，安昇租车服务网点遍布全国主要城市，拥有上万台车型车辆，为您提供旅游、商务洽谈等多重包车出行解决方案，保证您旅程出行的舒适、便捷。"
+            "奥鼎机械为广大用户提供7-54座多种车型选择服务，奥鼎机械服务网点遍布全国主要城市，拥有上万台车型车辆，为您提供旅游、商务洽谈等多重包车出行解决方案，保证您旅程出行的舒适、便捷。"
         }
       ]
     };

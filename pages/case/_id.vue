@@ -8,7 +8,7 @@
 			<img v-show="orderDetail.index == 1" class="mr40" src="~/assets/images/order/cursor-prev.png" alt="">
 			<div class="order-detail-container">
 				<el-breadcrumb class="mb30" separator-class="el-icon-arrow-right">
-					<el-breadcrumb-item :to="{ path: '/' }">安昇租车首页</el-breadcrumb-item>
+					<el-breadcrumb-item :to="{ path: '/' }">奥鼎机械首页</el-breadcrumb-item>
 					<el-breadcrumb-item :to="{ path: '/cases' }">订单参考</el-breadcrumb-item>
 					<el-breadcrumb-item>订单详情</el-breadcrumb-item>
 				  </el-breadcrumb >
@@ -129,7 +129,7 @@
 		},
 		head() {
     		return  {
-				title: this.orderDetail.orderTitle + '_安昇租车—7-54座大巴配驾包车平台',
+				title: this.orderDetail.orderTitle + '奥鼎机械',
 				meta: [{
 					name: 'keywords',
 					content: this.orderDetail.orderTitle + ',旅游包车,商务租车,会议租车,大巴包车价格,商务车租赁价格'

@@ -2,7 +2,7 @@
   <client-only>
     <div class="container">
       <div class="head" id="index">
-        <div class="title">安昇租车</div>
+        <div class="title">奥鼎机械</div>
       </div>
       <!-- 轮播图 -->
       <van-swipe class="topImgBox" :autoplay="3000" indicator-color="white">
@@ -14,15 +14,6 @@
         </van-swipe-item>
         <van-swipe-item>
           <img src="~/assets/images/banner/banner3.jpg" />
-        </van-swipe-item>
-        <van-swipe-item>
-          <img src="~/assets/images/banner/banner4.jpg" />
-        </van-swipe-item>
-        <van-swipe-item>
-          <img src="~/assets/images/banner/banner5.jpg" />
-        </van-swipe-item>
-        <van-swipe-item>
-          <img src="~/assets/images/banner/banner6.jpg" />
         </van-swipe-item>
       </van-swipe>
       
@@ -142,7 +133,7 @@
       </van-divider>
       <div class="about_us">
         <p>
-        一站式包车服务平台“安昇租车”隶属于江苏萌车网络科技有限公司。安昇租车专注于团体社交出行业务，专业为旅行社、企业用户、拓展公司、会务公司、酒店、OTA平台等用户群体提供智能快速线上报价与快速匹配车辆服务，并同时为用户提供行车途中的行程安全监测、服务质量跟踪、客服在线咨询等丰富功能，致力于让集体出行更美好。
+        一站式包车服务平台“奥鼎机械”隶属于南京奥鼎机械设备有限公司。奥鼎机械专注于团体社交出行业务，专业为旅行社、企业用户、拓展公司、会务公司、酒店、OTA平台等用户群体提供智能快速线上报价与快速匹配车辆服务，并同时为用户提供行车途中的行程安全监测、服务质量跟踪、客服在线咨询等丰富功能，致力于让集体出行更美好。
         </p><br/>
         <p>
           公司始终坚持以客户为中心、以客户满意为目 标，注重员工培训教育。每一名员工需经过严格的培训通过相应的职业资格考试选拔后方可 任用。客服专员熟悉专业知识，对客户反应的问题能礼貌用语、耐心解答；调度经理熟悉交 通地理、车型报价，客户用车咨询能收获有所裨益的答复，用车过程突发状况能稳妥处理； 司机驾驶技术娴熟，服务客户过程能热情周到、不厌其烦；市场监督员熟悉公司规章制度及 当地城市场风俗人情行使市监管职责，急客户之所急，高效处理客户投诉及反馈的意见。 我们正以统一、高效标准化的管理，在每个环节为您提供快速便捷的服务，我们用心做好每 一个细节，只为带给您非凡的出行享受。
@@ -155,7 +146,7 @@
       <div class="foot">
         <van-button 
           icon="wechat" 
-          v-clipboard:copy="'13951636244'" 
+          v-clipboard:copy="'18651833658'" 
           v-clipboard:success="copyWeixin" 
           size="large" 
           type="primary" 
@@ -284,7 +275,7 @@ export default {
         });
     },
     cellPhone () {
-      window.location.href = 'tel:13951636244'
+      window.location.href = 'tel:18651833658'
     },
     copyWeixin () {
       Toast('您已复制客服微信，请前往微信添加好友～');

@@ -4,7 +4,7 @@
       <div class="news-container">
         <el-breadcrumb class="mb30" separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }"
-            >安昇租车首页</el-breadcrumb-item
+            >奥鼎机械首页</el-breadcrumb-item
           >
           <el-breadcrumb-item>新闻中心</el-breadcrumb-item>
         </el-breadcrumb>

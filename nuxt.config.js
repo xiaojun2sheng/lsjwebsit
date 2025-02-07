@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '安昇租车',
+    title: '奥鼎机械',
     htmlAttrs: {
       lang: 'en'
     },

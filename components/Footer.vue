@@ -19,7 +19,7 @@
 							<router-link to="/brand-advantage">品牌优势</router-link>
 						</li>|
 						<li>
-							<router-link to="/aboutus">关于安昇</router-link>
+							<router-link to="/aboutus">关于我们</router-link>
 						</li>|
 						<!-- <li>
 							<router-link to="/privacy-agreement">隐私政策</router-link>
@@ -34,11 +34,11 @@
 				</div>
 				<!-- 公司信息 -->
 				<div class="footer-info">
-					<!-- <p>开发者：江苏萌车网络科技有限公司</p> -->
-					<p>咨询电话：13951636244</p>
+					<!-- <p>开发者：南京奥鼎机械设备有限公司</p> -->
+					<p>咨询电话：18651833658</p>
 					<p>客服工作时间：7*24小时</p>
-					<p>公司地址：南京市栖霞区马群街道紫东路2号57栋</p>
-					<p>Copyright © 2020 江苏萌车网络科技有限公司. 版权所有. 苏ICP备2022035508号</p>
+					<p>公司地址：南京市栖霞区龙潭街道飞花工业园</p>
+					<p>Copyright © 2020 南京奥鼎机械设备有限公司. 版权所有. 苏ICP备17020337号</p>
 				</div>
 			</div>
 
@@ -48,14 +48,14 @@
 				<!-- <div class="qr-code">
 					<img src="~/assets/haio-vx.jpg" />
 					<div>
-						安昇租车小程序
+						奥鼎机械小程序
 					</div>
 				</div> -->
 				<!-- APP -->
 				<!-- <div class="qr-code">
 					<img src="~/assets/APP.jpg" />
 					<div>
-						安昇租车APP
+						奥鼎机械APP
 					</div>
 				</div> -->
 				<!-- 公众号 -->

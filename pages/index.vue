@@ -14,15 +14,6 @@
             <div class="swiper-slide">
               <img src="../assets/images/banner/banner3.jpg" />
             </div>
-            <div class="swiper-slide">
-              <img src="../assets/images/banner/banner4.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="../assets/images/banner/banner5.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="../assets/images/banner/banner6.jpg" />
-            </div>
           </div>
           <div slot="pagination" class="swiper-pagination"></div>
         </div>
@@ -288,10 +279,10 @@
           <div class="about content">
             <div class="top">
               <div class="top-title">
-                关于安昇
+                关于我们
               </div>
               <div class="introduce">
-                一站式包车服务平台“安昇租车”隶属于江苏萌车网络科技有限公司。安昇租车专注于团体社交出行业务，专业为旅行社、企业用户、拓展公司、会务公司、酒店、OTA平台等用户群体提供智能快速线上报价与快速匹配车辆服务，并同时为用户提供行车途中的行程安全监测、服务质量跟踪、客服在线咨询等丰富功能，致力于让集体出行更美好。
+                一站式包车服务平台“奥鼎机械”隶属于南京奥鼎机械设备有限公司。奥鼎机械专注于团体社交出行业务，专业为旅行社、企业用户、拓展公司、会务公司、酒店、OTA平台等用户群体提供智能快速线上报价与快速匹配车辆服务，并同时为用户提供行车途中的行程安全监测、服务质量跟踪、客服在线咨询等丰富功能，致力于让集体出行更美好。
               </div>
             </div>
             <!-- <div class="company-pictures">
@@ -605,17 +596,17 @@ export default {
   head() {
     return {
       title:
-        "安昇租车_7-54座大巴配驾租车_旅游包车_大巴租赁_商务车出租_一站式包车平台",
+        "奥鼎机械",
       meta: [
         {
           name: "keywords",
           content:
-            "安昇租车,旅游包车,大巴租赁,大巴包车,大巴出租,商务车租赁,商务车出租,包车平台"
+            "奥鼎机械,旅游包车,大巴租赁,大巴包车,大巴出租,商务车租赁,商务车出租,包车平台"
         },
         {
           name: "description",
           content:
-            "安昇租车专注于团体社交出行服务，通过互联网+大巴车租赁模式，为广大用户提供旅游包车、市内包车、企业用车、婚礼包车、商务接待、会展会务等便捷的订车服务。安昇租车，让集体出行更美好，服务热线025-51197773。"
+            "奥鼎机械专注于团体社交出行服务，通过互联网+大巴车租赁模式，为广大用户提供旅游包车、市内包车、企业用车、婚礼包车、商务接待、会展会务等便捷的订车服务。奥鼎机械，让集体出行更美好，服务热线025-51197773。"
         }
       ]
     };

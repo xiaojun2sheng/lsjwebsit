@@ -4,7 +4,7 @@
       <div class="order-container">
         <el-breadcrumb class="mb30" separator-class="el-icon-arrow-right">
           <el-breadcrumb-item :to="{ path: '/' }"
-            >安昇租车首页</el-breadcrumb-item
+            >奥鼎机械首页</el-breadcrumb-item
           >
           <el-breadcrumb-item>订单参考</el-breadcrumb-item>
         </el-breadcrumb>
@@ -80,7 +80,7 @@ export default {
   },
   head() {
     return {
-      title: "订单参考_旅游包车_商务租车_会议租车_大巴租赁价格—安昇租车",
+      title: "订单参考_旅游包车_商务租车_会议租车_大巴租赁价格—奥鼎机械",
       meta: [
         {
           name: "keywords",
@@ -89,7 +89,7 @@ export default {
         {
           name: "description",
           content:
-            "安昇租车专注于团体社交出行服务，为广大用户提供旅游包车、市内包车、企业用车、商务接待等快速、便捷的订车服务体验，目前已经为上千家企业单位提供快捷订车服务，服务人数达到10万+。"
+            "奥鼎机械专注于团体社交出行服务，为广大用户提供旅游包车、市内包车、企业用车、商务接待等快速、便捷的订车服务体验，目前已经为上千家企业单位提供快捷订车服务，服务人数达到10万+。"
         }
       ]
     };
